@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8D503DCF2528CC6400A48F85 /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D503DCE2528CC6400A48F85 /* Layout.swift */; };
-		8D503DD32528E7FE00A48F85 /* contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 8D503DD22528E7FE00A48F85 /* contents.json */; };
 		8D504072252A156E00A48F85 /* Notes.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8D504071252A156E00A48F85 /* Notes.mlmodel */; };
 		8D7E45062528B95500F46846 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7E45052528B95500F46846 /* AppDelegate.swift */; };
 		8D7E45082528B95500F46846 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7E45072528B95500F46846 /* SceneDelegate.swift */; };
@@ -18,7 +17,6 @@
 		8D7E45122528B95600F46846 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D7E45102528B95600F46846 /* LaunchScreen.storyboard */; };
 		8D7E451D2528B95700F46846 /* HostMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7E451C2528B95700F46846 /* HostMLTests.swift */; };
 		8D7E45282528B95700F46846 /* HostMLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7E45272528B95700F46846 /* HostMLUITests.swift */; };
-		8D7E453A2528C8AE00F46846 /* Currency.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8D7E45392528C8AE00F46846 /* Currency.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +38,6 @@
 
 /* Begin PBXFileReference section */
 		8D503DCE2528CC6400A48F85 /* Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
-		8D503DD22528E7FE00A48F85 /* contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = contents.json; sourceTree = "<group>"; };
 		8D504071252A156E00A48F85 /* Notes.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Notes.mlmodel; sourceTree = "<group>"; };
 		8D7E45022528B95500F46846 /* HostML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HostML.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D7E45052528B95500F46846 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,7 +53,6 @@
 		8D7E45232528B95700F46846 /* HostMLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HostMLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D7E45272528B95700F46846 /* HostMLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostMLUITests.swift; sourceTree = "<group>"; };
 		8D7E45292528B95700F46846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8D7E45392528C8AE00F46846 /* Currency.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Currency.mlmodel; path = ../../Try/Try/Currency.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,9 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				8D504071252A156E00A48F85 /* Notes.mlmodel */,
-				8D503DD22528E7FE00A48F85 /* contents.json */,
 				8D503DCE2528CC6400A48F85 /* Layout.swift */,
-				8D7E45392528C8AE00F46846 /* Currency.mlmodel */,
 				8D7E45052528B95500F46846 /* AppDelegate.swift */,
 				8D7E45072528B95500F46846 /* SceneDelegate.swift */,
 				8D7E45092528B95500F46846 /* ViewController.swift */,
@@ -247,7 +241,6 @@
 				8D7E45122528B95600F46846 /* LaunchScreen.storyboard in Resources */,
 				8D7E450F2528B95600F46846 /* Assets.xcassets in Resources */,
 				8D7E450D2528B95500F46846 /* Main.storyboard in Resources */,
-				8D503DD32528E7FE00A48F85 /* contents.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +270,6 @@
 				8D7E45062528B95500F46846 /* AppDelegate.swift in Sources */,
 				8D503DCF2528CC6400A48F85 /* Layout.swift in Sources */,
 				8D7E45082528B95500F46846 /* SceneDelegate.swift in Sources */,
-				8D7E453A2528C8AE00F46846 /* Currency.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
